@@ -2,8 +2,9 @@ import Header from "./components/Header";
 import Section from "./components/SectionNetwork";
 import SectionTecnologias from "./components/SectionTecnologias";
 import SectionTitle from "./components/SectionProjet";
-import ListProjetos from "./components/data";
+import { ListProjetos } from "./components/ListaProjetos";
 import ListaProjetos from "./components/ListaProjetos";
+
 import { Container } from "./style/ContainerGrid";
 import { Button } from "./style/Button";
 import { useState } from "react";

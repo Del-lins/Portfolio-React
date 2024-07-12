@@ -1,11 +1,6 @@
 import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 import { HomeSection } from "../style/SectionNetworkStyle";
-
-// const socialNetworks = [
-//   { name: "linkedin", icon: <FaLinkedin /> },
-//   { name: "github", icon: <FaGithub /> },
-//   { name: "instagram", icon: <FaInstagram /> },
-// ];
+import minhaImage from "../assets/Dell.png";
 const Section = () => {
   return (
     <>
@@ -41,17 +36,12 @@ const Section = () => {
                 </a>
               </li>
             </ul>
-            {/* {socialNetworks.map((network) => (
-              <a className="social-btn" id={network.name} key={network.name}>
-                {network.icon}
-              </a>
-            ))} */}
           </section>
         </div>
 
         <div className="container-foto">
           <div className="foto sombra-interna">
-            <img src="./src/assets/Dell.png" alt="Minha foto" />
+            <img src={minhaImage} alt="Minha foto" />
           </div>
         </div>
       </HomeSection>
